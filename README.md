@@ -1,4 +1,4 @@
-## Library Api
+## Library App
 
 I created this page based on designs from various library websites. I chose a simple green color palette and divided each component for better readability and scalability.
 
