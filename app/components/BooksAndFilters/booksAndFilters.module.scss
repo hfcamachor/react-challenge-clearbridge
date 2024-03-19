@@ -1,0 +1,17 @@
+@import "../../utils//variables.scss/variables.scss";
+
+.booksAndFilters {
+  @media screen and (min-width: $breakpoint-xs) {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &Books {
+    border-left: solid 1px rgb(170, 170, 170);
+    width: 100%;
+  }
+  &Pagination {
+    display: flex;
+    justify-content: center;
+  }
+}

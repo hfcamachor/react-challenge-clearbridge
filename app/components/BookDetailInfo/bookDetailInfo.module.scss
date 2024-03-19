@@ -1,0 +1,55 @@
+@import "../../utils/variables.scss/variables.scss";
+
+.bookDetailInfo {
+  margin: 20px 10px;
+  height: auto;
+
+  @media screen and (min-width: $breakpoint-sm) {
+    height: calc(100vh - 140px);
+    max-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &Image {
+    width: 100%;
+    max-width: 500px;
+    max-height: 600px;
+    margin: auto;
+    overflow: hidden;
+
+    @media screen and (min-width: $breakpoint-sm) {
+      max-width: 400px;
+      max-height: 500px;
+    }
+  }
+
+  &Text {
+    margin-top: 10px;
+  }
+
+  &Subtitle {
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 3px solid #0f8852;
+  }
+
+  &Title {
+    color: #0f8852;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  &Artist {
+    font-weight: bold;
+  }
+
+  &Container {
+    @media screen and (min-width: $breakpoint-sm) {
+      display: flex;
+      gap: 20px;
+    }
+  }
+}

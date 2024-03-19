@@ -1,0 +1,56 @@
+@import "../../utils//variables.scss/variables.scss";
+
+.bookList {
+  padding: 10px;
+  @media screen and (min-width: $breakpoint-xs) {
+    padding: 20px 0 20px 40px;
+  }
+
+  &Link {
+    text-decoration: none;
+  }
+
+  &Item {
+    display: flex;
+    border-bottom: solid 1px rgb(209, 207, 207);
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(232, 232, 232);
+    }
+  }
+
+  &Title {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    color: #0f8852;
+    font-weight: bold;
+  }
+
+  &Text {
+    display: flex;
+    width: 100%;
+  }
+
+  &ImageContainer {
+    padding: 10px;
+  }
+
+  &Image {
+    width: 100%;
+    max-width: 80px;
+    max-height: 80px;
+    overflow: hidden;
+  }
+
+  &NoImage {
+    background-color: rgb(216, 214, 214);
+    color: black;
+    width: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

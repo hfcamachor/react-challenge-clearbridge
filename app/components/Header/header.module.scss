@@ -1,0 +1,20 @@
+.header {
+  background-color: #095030;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: white;
+
+  &Title {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+
+  &Link {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,26 @@
+.form {
+  background-color: #139359;
+  margin-top: 30px;
+  padding: 50px 10px;
+
+  &Container {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 10px 0;
+  }
+
+  &Title {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  &Button{
+    text-align: center;
+  }
+}

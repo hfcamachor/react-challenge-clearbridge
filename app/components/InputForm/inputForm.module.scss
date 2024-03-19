@@ -1,0 +1,23 @@
+.inputForm {
+  &Input {
+    width: 100%;
+    min-height: 30px;
+  }
+
+  &Label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #139359;
+    margin-bottom: 10px;
+  }
+
+  &Container {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  &Error {
+    color: red;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../utils//variables.scss/variables.scss";
+
+.radioSelect {
+  width: 100%;
+  max-width: 150px;
+  font-size: 10px;
+  padding: 5px 20px;
+
+  @media screen and (min-width: $breakpoint-sm) {
+    max-width: 250px;
+    padding: 20px;
+  }
+
+  &Label {
+    span {
+      font-size: 14px;
+    }
+  }
+}
